@@ -3,7 +3,7 @@ COPY . /app
 WORKDIR /app
 RUN pip install --upgrade pip setuptools
 RUN pip install Flask
-RUN pip install sklearn
+RUN pip install scikit-learn
 RUN pip install gunicorn
 RUN pip install pandas
 RUN pip install numpy
